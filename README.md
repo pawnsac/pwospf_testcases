@@ -1,4 +1,4 @@
-# OSPF Test Cases
+# PWOSPF Test Cases
 
 ## Script to Check Link Failures
 This Bash script is designed to automate the testing of network topology changes by turning off links (vhost1-vhost2 or vhost1-vhost3 or vhost2-vhost3) and pinging all the IP addresses in the toplogy. It takes two command-line arguments: `<topology_number>` and `<convergence_time>`.
