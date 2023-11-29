@@ -5,6 +5,8 @@ This Bash script is designed to automate the testing of network topology changes
 
 ### Usage
 
+Copy all the files in the repo into your directory (stub_sr).
+
 ```bash ./check_link_failure.sh <topology_number> <convergence_time> ```
 
 ## Script to Ping All IP Addresses
@@ -13,5 +15,7 @@ This Bash script pings all the IP addresses present in your topology for 5 secon
 
 
 ### Usage
+
+Copy all the files in the repo into your directory (stub_sr).
 
 ```bash ./ping_all_ips.sh <topology_number>```
